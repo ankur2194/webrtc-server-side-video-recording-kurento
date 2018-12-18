@@ -1,0 +1,28 @@
+{
+  "name": "webrtc-server-side-video-recording-kurento",
+  "homepage": "https://github.com/ankur2194/webrtc-server-side-video-recording-kurento",
+  "description": "An Application which is recording video directly from web (browser) to server (Kurento Media Server) -- Testing App",
+  "main": "index.html",
+  "keywords": [
+    "webrtc",
+    "video",
+    "recording",
+    "kurento",
+    "server-side-recording"
+  ],
+  "authors": [
+    "Ankur Patel <ankur2194@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ankur2194/webrtc-server-side-video-recording-kurento.git"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
