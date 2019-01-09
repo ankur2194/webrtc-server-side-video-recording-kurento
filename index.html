@@ -8,6 +8,12 @@
     <meta http-equiv="expires" content="0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="/bower_components/adapter.js/adapter.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/co/co.js"></script>
+    <script src="/bower_components/kurento-client/js/kurento-client.min.js"></script>
+    <script src="/bower_components/kurento-utils/js/kurento-utils.min.js"></script>
+    <script src="/js/index.js"></script>
     <title>WebRTC Video Recording Server Side with Kuretno Media Server</title>
 </head>
 
@@ -19,27 +25,23 @@
     </header>
 
     <div>
-        <div style="max-width: 805px; margin: auto;">
+        <div style="max-width: 1005px; margin: auto;">
             <div>
                 <button id="start" onclick="start(); return false;">Start</button>
                 <button id="stop" onclick="stop(); return false;">Stop</button>
                 <hr />
             </div>
-            <div style="max-width: 400px; display: inline-block;">
+            <div style="max-width: 500px; display: inline-block;">
                 <h2 style="margin: 0; padding: 5px;">Local Video</h2>
                 <div style="border: solid 1px black; padding: 10px;">
                     <video id="localVideo" width="480px" height="360px" autoplay></video>
                 </div>
             </div>
-            <div style="max-width: 400px; display: inline-block;">
+            <div style="max-width: 500px; display: inline-block;">
                 <h2 style="margin: 0; padding: 5px;">Remote Video</h2>
                 <div style="border: solid 1px black; padding: 10px;">
                     <video id="remoteVideo" width="480px" height="360px" autoplay></video>
                 </div>
-            </div>
-            <div style="text-align: right;">
-                <hr />
-                <button id="play" onclick="play(); return false;">Play</button>
             </div>
         </div>
     </div>

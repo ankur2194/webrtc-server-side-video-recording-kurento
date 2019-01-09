@@ -24,5 +24,12 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "adapter.js": "v0.2.9",
+    "co": "~3.0.7",
+    "kurento-client": "master",
+    "kurento-utils": "master",
+    "jquery": "^3.3.1"
+  }
 }
